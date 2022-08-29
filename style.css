@@ -1,21 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
 body {
-background-color: aliceblue;
+  font-family: "Oswald", sans-serif;
+  background-color: aliceblue;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: normal;
+  /*text-decoration: dashed;*/
+  /* font-style: italic; */
+  /* letter-spacing: 2px; */
+  /* word-spacing: 20px; */
+  /* font: normal 20px 'Roboto', sans-serif ;  данная запись объединяет в себе  font-family font-size и font-weight*/
+
 }
 
-.form1{
-    padding: 40px;
-    background: mediumturquoise;
+.form1 {
+  padding: 40px;
+  background: mediumturquoise;
+ 
 }
 
-.ec3  {
-background: red;
-color: honeydew;
+.ec3 {
+  background: red;
+  color: honeydew;
+  border-radius: 5px;
 }
 
-.ec4{
-    background: black;
-    color: honeydew;
+.ec4 {
+  background: black;
+  color: honeydew;
+  border-radius: 5px;
 }
-*{
-    
+* {
+
+}
+.ec5 textarea {
+  font-size: 20px;
+
+}
+.ec6{
+    color: #00ff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.ec7 {
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.ec8{
+    color: rgba(30 86 217);
+    font-family: "Roboto"
+
+}
+.ec9{
+    color: rgb(248 208 33);
+    border: 2px solid ;
+    border-radius: 5px;
+    padding-left: 5px;
 }
